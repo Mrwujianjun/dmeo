@@ -1,0 +1,67 @@
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: #666666;}
+a:hover{color: #c81623;}
+img,input{border: none;}
+body{font-family: arial,"microsoft yahei",'宋体';}
+i{font-style: normal;font-family: consolas;}
+.clearfix:after{content: "200B";display: block;font-size: 0;height: 0;clear: both;}
+.clearfix{*zoom:1;}
+.hander{height: 174px;border-bottom: 2px solid #C81623;}
+.hander .top{background-color: #f1f1f1;}
+.inner{width: 1210px;margin: 0 auto;}
+.hander .top .inner{width: 1210px;height: 30px;margin: 0 auto;}
+.hander .top .inner .diqu{float: left;font-size: 12px;line-height: 30px;}
+.hander .top .inner .diqu i{margin-left: 9px; width: 10px;height: 5px;overflow: hidden;line-height: 2px;font-family: consolas;display: inline-block;}
+.hander .top .inner ul{float: right;}
+.hander .top .inner ul li{float: left;line-height: 30px;height: 30px;}
+.hander .top .inner .line{width: 1px;height: 12px;background-color: #DDDDDD;margin-top: 9px;}
+.hander .top .inner ul li a{font-size: 12px;vertical-align: top;padding: 0 10px;display: inline-block;}
+.hander .top .inner ul li i{margin-left: 9px; width: 10px;height: 5px;overflow: hidden;line-height: 2px;font-family: consolas;display: inline-block;}
+.hander .top .inner ul li:hover i{overflow: hidden;line-height: 9px;font-family: consolas;display: inline-block;}
+.hander .top .inner ul li span{display: inline-block;width: 15px;height: 20px;background: url(../images/jd2015img.png) no-repeat 0 0;margin: 5px 3px 0 0;float: left;}
+.hander .top .inner ul li .a{padding-left: 0;}
+.hander .top .inner ul li:hover .bjs{background-color: #FFFFFF;}
+.hander .top .inner ul li:hover span{background-position: 0 -25px;}
+.hander .top .inner ul li:hover a{color: #c81623;}
+.hander .zhong{width: 1210px;}
+.hander .zhong .logo{float: left;padding: 20px 92px 0 0;}
+.hander .zhong .form{float: left;padding-top: 25px;}
+.hander .zhong form .text1{width: 449px;height: 32px;border: 2px solid #c81623;line-height: 32px;padding-left: 5px;font-size: 13px;float: left;}
+.hander .zhong form .sub{width: 80px;height: 36px;background-color: #c81623;float: left;line-height: 36px;font-size: 16px;cursor: pointer;}
+.hander .zhong .eges{width: 540px;height: 39px;overflow: hidden;}
+.hander .zhong .eges a{font-size: 12px;height: 39px;line-height: 39px;float: left;margin-right: 11px;}
+.hander .zhong .gwc{float: right;width: 139px;height: 34px;background: #f9f9f9 url(../images/jd2015img.png) no-repeat 18px -49px;border: 1px solid #dfdfdf;margin: 25px 65px 0 0;position: relative;}
+.hander .zhong .gwc a{font-size: 13px;vertical-align: top;margin-left: 44px;line-height: 34px;}
+.hander .zhong .gwc i{float: right;font-family: consolas;padding-right: 11px;line-height: 34px;}
+.hander .zhong .gwc .num{height: 14px;background-color: #C81623;border-radius: 6px 6px 6px 0;text-align: center;font-size: 12px;position: absolute;top: -4px;padding: 0 4px 0 5px;left: 104px;}
+.hander .but .quan{float: left;width: 200px;height: 44px;background-color: #b1191a;line-height: 44px;padding-left: 10px;font-size: 15px;color: #FFFFFF;}
+.hander .but ul{float: left;}
+.hander .but li{float: left;line-height: 44px;font-size: 16px;padding: 0 20px;}
+.p_top .wrap{width: 210px;float: left;position: relative;}
+.p_top .p_list{width: 209px;height: 465px;background-color: #c81623;border-left: 1px solid #b61d1d;border-bottom: 1px solid #b61d1d;position: relative; z-index: 2;}
+.p_top .p_list li{height: 31px; line-height: 31px;position: relative;font-size: 13px;}
+.p_top .p_list li h3{font-weight: normal;padding-left: 10px;height: 31px;line-height: 31px;width: 185px;height: 31px;overflow: hidden;color: #FFFFFF;}
+.p_top .p_list li h3 a{color: #FFFFFF;font-size: 14px;;font-family: "microsoft yahei";}
+.p_top .p_list li i{font-family: consolas;font-size: 13px;color: #FFFFFF;position: absolute;top: 0; right: 13px;}
+.p_top .p_list li:hover{background-color: #f7f7f7;}
+.p_top .p_list li:hover a{color: #000000;}
+.p_top .p_list li a:hover{color: #C81623;}
+.p_top .popup{width: 999px;border: 1px solid #b61d1d;background-color: #f7f7f7;min-height: 465px;z-index: 1;left: 209px;top: -1px;position: absolute;display: none;}
+.p_top .popup .brand a{background-color: #7c7171;float: left;margin-right: 10px;color: #FFFFFF;height: 24px;line-height: 24px;font-size: 12px;padding: 0 32px 0 9px;position: relative;}
+.p_top .popup .left{padding: 20px 0 0 20px;float: left;width: 730px;}
+.p_top .popup .brand{width: 730px;height: 24px;overflow: hidden;}
+.p_top .popup .brand a i{width: 23px;height: 23px;background-color: #5c5251;position: absolute;top: 1px;right: 0;text-align: center;}
+.p_top .popup .brand a:hover{background-color: #c81623;}
+.p_top .popup .brand a:hover i{background-color: #b1191a;}
+.p_top .popup .nav_con{padding-top: 6px;}
+.p_top .popup .nav_con dl{padding-top: 10px;}
+.p_top .popup .nav_con dt{float: left;width: 84px;position: relative;}
+.p_top .popup .nav_con dt a{width: 55px;display: block;font-size: 12px;font-weight: bold;text-align: right;line-height: 21px;height: 21px;overflow: hidden;}
+.p_top .popup .nav_con dt i{position: absolute;top: 1px;right: 17px;}
+.p_top .popup .nav_con dd{float: left;width: 621px;border-bottom: 1px solid #F2F2F2;padding-bottom: 2px;}
+.p_top .popup .nav_con dd a{padding: 0 8px;height: 16px;line-height: 16px;font-size: 12px;float: left;display: block;border-left: 1px solid #E5E5E5;margin-bottom: 8px;}
+.p_top .popup .right{width: 168px; float: right;padding: 20px 20px 0 0;}
+.p_top .popup .right .r_t{padding-bottom: 10px;float: left;}
+.p_top .popup .right .r_t img{margin: 0 1px 1px 0;float: left;width: 83px;height: 35px;}
+
